@@ -1,0 +1,16 @@
+---
+all:
+  children:
+    local:
+      hosts:
+        localhost:
+      vars:
+        ansible_connection: local
+        ansible_python_interpreter: python3
+
+    servers:
+      hosts:
+        x.x.x.1:
+        x.x.x.2:
+      vars:
+        ansible_python_interpreter: python3

@@ -1,0 +1,6 @@
+---
+- name: Playbook for handle docker and docker compose installation on Ubuntu based servers.
+  hosts: servers
+
+  roles:
+    - geerlingguy.docker
